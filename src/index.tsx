@@ -12,7 +12,7 @@ ReactDOM.render(
   <Provider store={store}>
     <ConnectedRouter history={history}>
       <Switch>
-        <Route exact={true} path="/" component={SceneLobby} />
+        <Route path="/" component={SceneLobby} />
         <Route path="/chat" component={SceneChat} />
         <Route path="/all" component={SceneBoth} />
       </Switch>
