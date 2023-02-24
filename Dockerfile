@@ -1,4 +1,4 @@
-FROM node:16.0.0 AS builder
+FROM node AS builder
 WORKDIR /opt/front
 COPY . .
 RUN npm install
